@@ -1,57 +1,120 @@
-body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* Reset CSS */
+/*--------------------------------*/
+/* Resetting default browser styles */
+/*--------------------------------*/
+* {
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #222;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+body {
+    font-family: "PT Serif", Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4;
+    background-color: #F2F0EB;
 }
 
 main {
-    padding: 20px;
+    margin-bottom: 6%;
 }
 
-article {
-    margin-bottom: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+/* Default styles */
+header {
+    max-width: 60%;
+    margin: 12% auto 6% auto; /* Center vertically and horizontally */
+    font-size: 1em;
+    color: #0D0D0D;
 }
 
-article h2 {
-    margin-bottom: 10px;
-    color: #333;
-    font-size: 24px;
+h1 {
+    font-weight: normal;
+    color: #0D0D0D;
 }
 
-article p {
-    margin-top: 5px;
-    color: #666;
-    font-size: 16px;
+h2 {
+    margin-top: 2em;
+    margin-bottom: 0.6em;
+    font-weight: normal;
+    color: #0D0D0D;
+}
+
+h3 {
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+    text-decoration: underline;
+    font-weight: normal;
+    color: #0D0D0D;
+}
+
+.projects {
+    margin-top: 2em;
+}
+
+p {
+    line-height: 1.6;
+    color: #0D0D0D;
+}
+
+.line {
+    max-width: 100%;
+    height: 1px;
+    background-color: #0D0D0D;
 }
 
 a {
-    color: #007bff;
     text-decoration: none;
 }
 
+a:link {
+    color: #0D0D0D;
+}
+
+a:visited {
+    color: #0D0D0D;
+}
+
 a:hover {
-    text-decoration: underline;
+    color: #033E8C;
+    cursor: pointer;
+}
+
+a:active {
+    color: #6D80A6;
+}
+
+section {
+    max-width: 46%; /* Smaller for larger screens */
+    margin-left: calc((100% - 60%) / 2); /* Calculate left margin based on header's max-width */
 }
 
 footer {
-    background-color: #222;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    margin-left: calc((100% - 60%) / 2); /* Calculate left margin based on header's max-width */
+    margin-bottom: 2em;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    header {
+        max-width: 90%;
+        font-size: 0.8em;
+    }
+
+    section {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto; 
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Further adjust styles for even smaller screens */
+    header {
+        font-size: 0.8em;
+    }
+
+    section {
+        font-size: 0.8em;
+    }
 }
