@@ -104,7 +104,6 @@ footer {
         max-width: 90%;
         margin-left: auto;
         margin-right: auto; 
-        font-size: 0.9em;
     }
 }
 
@@ -113,8 +112,3 @@ footer {
     header {
         font-size: 0.8em;
     }
-
-    section {
-        font-size: 0.8em;
-    }
-}
