@@ -103,7 +103,8 @@ footer {
     section {
         max-width: 90%;
         margin-left: auto;
-        margin-right: auto; 
+        margin-right: auto;
+        font-size: 1.2 em;
     }
 }
 
@@ -111,4 +112,8 @@ footer {
     /* Further adjust styles for even smaller screens */
     header {
         font-size: 0.8em;
+    }
+
+    section {
+        font-size: 1.2em;
     }
