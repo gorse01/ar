@@ -122,3 +122,8 @@ footer {
     section {
         font-size: 0.9em;
     }
+
+     footer {
+        margin-left: 5%;
+        margin-bottom: 2em;
+    }
