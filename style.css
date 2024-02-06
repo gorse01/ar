@@ -108,7 +108,8 @@ footer {
     }
 
      footer {
-        margin-left: 5%;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 2em;
     }
 }
@@ -121,9 +122,4 @@ footer {
 
     section {
         font-size: 0.9em;
-    }
-
-     footer {
-        margin-left: 5%;
-        margin-bottom: 2em;
     }
